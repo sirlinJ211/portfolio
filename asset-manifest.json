@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.f3fec46a.css",
+    "main.js": "/portfolio/static/js/main.05674d7d.js",
+    "static/media/about.png": "/portfolio/static/media/about.0582ae3e372f6c7e8415.png",
+    "static/media/intro.jpg": "/portfolio/static/media/intro.ea3f8459a11966693e6d.jpg",
+    "static/media/logo-sirlin.png": "/portfolio/static/media/logo-sirlin.6d6ed3a546b31715f833.png",
+    "index.html": "/portfolio/index.html",
+    "main.f3fec46a.css.map": "/portfolio/static/css/main.f3fec46a.css.map",
+    "main.05674d7d.js.map": "/portfolio/static/js/main.05674d7d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3fec46a.css",
+    "static/js/main.05674d7d.js"
+  ]
+}
