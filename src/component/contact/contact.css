@@ -1,0 +1,70 @@
+.contact {
+  height: auto;
+}
+
+.contact .content {
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8rem;
+}
+
+.contact .icons {
+  width: 30%;
+  margin: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact .icons p {
+  font-size: 2.2vw;
+  font-weight: 600;
+}
+
+.contact .numberEmailGithub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact .circle {
+  border: 5px solid var(--lightgrey);
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact .icon {
+  font-size: 2rem;
+  color: var(--lightgrey);
+}
+
+.contact-number,
+.contact-email,
+.contact-github {
+  font-size: 1.8vw;
+  white-space: nowrap;
+}
+
+.contact-github a {
+  color: #fff;
+}
+
+@media screen and (max-width: 550px) {
+  .numberEmailGithub {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .contact .icons p {
+    font-size: 3vw;
+    font-weight: 700;
+  }
+}

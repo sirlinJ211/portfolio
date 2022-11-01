@@ -1,0 +1,120 @@
+.intro {
+  width: 100%;
+}
+
+.intro .container {
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+.intro .background img {
+  width: 100%;
+  height: auto;
+}
+
+.intro .intro-box {
+  width: 100%;
+  text-align: left;
+}
+
+.intro .intro-intro {
+  position: absolute;
+  top: 2rem;
+  left: 4rem;
+  font-size: 4vw;
+  font-weight: 700;
+  color: #fff;
+}
+
+.intro-box .name-box {
+}
+
+.intro-box .intro-name {
+  position: absolute;
+  top: 5.5rem;
+  left: 4rem;
+  font-size: 6vw;
+  font-weight: 800;
+  height: 15%;
+  max-width: 47vw;
+}
+
+.intro-box .first {
+  color: var(--darkgrey);
+}
+
+.intro-box .second {
+  color: var(--primary);
+  border-right: 3px solid #fff;
+  animation: animate 3s steps(14) infinite;
+  overflow: hidden;
+  white-space: nowrap;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+@keyframes animate {
+  0%,
+  10%,
+  100% {
+    width: 0;
+  }
+  70%,
+  90% {
+    width: 100%;
+  }
+}
+
+.intro .intro-job {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  text-align: right;
+  font-size: 3vw;
+  font-weight: 600;
+  color: #fff;
+}
+
+@media screen and (max-width: 1260px) {
+  .intro .intro-intro {
+    top: 2rem;
+    left: 3rem;
+  }
+
+  .intro .intro-name {
+    top: 4.5rem;
+    left: 3rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .intro .intro-intro {
+    top: 1rem;
+    left: 2rem;
+  }
+
+  .intro .intro-name {
+    top: 2.5rem;
+    left: 2rem;
+  }
+
+  .intro .container {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .intro .intro-intro {
+    top: 0.5rem;
+    left: 1rem;
+  }
+
+  .intro .intro-name {
+    top: 1.5rem;
+    left: 1rem;
+  }
+
+  .intro .container {
+    margin-bottom: 1rem;
+  }
+}

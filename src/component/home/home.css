@@ -1,0 +1,28 @@
+.home {
+  background-color: var(--darkgrey);
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 10rem;
+}
+
+@media screen and (max-width: 1260px) {
+  .page {
+    padding: 3rem 10vw;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .page {
+    padding: 2rem 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .page {
+    padding: 0.5rem 0;
+  }
+}

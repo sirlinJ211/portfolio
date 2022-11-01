@@ -1,0 +1,151 @@
+.workDetail {
+  padding: 3rem 16vw;
+}
+
+.workDetail .carousel {
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--darkgrey);
+  padding: 1rem 0 2rem 0;
+}
+
+.workDetail .img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin: 0 15px;
+  padding-top: 1rem;
+}
+
+.workDetail img {
+  width: 100%;
+  /* max-width: 70vw;
+  max-height: 70vh; */
+}
+
+.workDetail .information {
+  width: 100%;
+  margin: auto;
+  color: var(--lightgrey);
+  padding: 5rem 0;
+}
+
+.workDetail .title {
+  font-size: 3.5vw;
+  margin-bottom: 0.5rem;
+}
+
+.workDetail .underTitle {
+  font-size: 2.5vw;
+  margin-bottom: 3rem;
+  font-weight: 500;
+}
+
+.workDetail .project-box {
+  display: inline-block;
+  font-size: 1.8vw;
+}
+
+.workDetail .project {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.workDetail .project-tag {
+  min-width: 22vw;
+  text-align: left;
+  font-weight: 700;
+}
+
+.workDetail .project-text {
+  text-align: left;
+  padding-left: 1vw;
+}
+
+.workDetail .project-text a {
+  color: var(--lightgrey);
+}
+
+.workDetail .project-text a:hover {
+  color: var(--primary);
+}
+
+/* carousel */
+
+.rec .rec-swipable {
+  align-items: center;
+}
+.cNNJIt {
+  background-color: transparent !important;
+}
+
+.cNNJIt:disabled {
+  visibility: hidden;
+}
+
+.jRFJkP {
+  background-color: transparent !important;
+  padding: 0 !important;
+  color: var(--lightgrey) !important;
+}
+
+.cNNJIt,
+.jRFJkP:hover {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
+.jMNKZk {
+  background-color: var(--darkgrey) !important;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  padding-bottom: 1rem;
+}
+
+.lcUbOd,
+.eaptOe {
+  background-color: var(--lightgrey) !important;
+  box-shadow: none !important;
+  font-size: 1rem !important;
+}
+
+.lcUbOd {
+  background-color: var(--primary) !important;
+  width: 15px !important;
+  height: 15px !important;
+}
+
+.eaptOe {
+  background-color: var(--lightgrey) !important;
+  width: 15px !important;
+  height: 15px !important;
+}
+
+.fPDpuU {
+  margin: 0;
+}
+
+.gZZBOx {
+  padding: 1rem 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .workDetail .carousel {
+    margin: auto;
+    width: 98%;
+    padding: 0;
+  }
+
+  .jMNKZk {
+    border: 2px solid #fff;
+  }
+
+  .gZZBOx {
+    padding: 0.5rem 0;
+  }
+}

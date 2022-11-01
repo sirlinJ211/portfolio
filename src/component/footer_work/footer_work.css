@@ -1,0 +1,28 @@
+.footerWork {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--darkgrey);
+  border-top: 2px solid #000;
+  min-height: 3rem;
+}
+
+.footerWork .lists {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.footerWork .list {
+  padding: 0.5rem 2rem;
+}
+
+.footerWork .list-link {
+  padding-bottom: 0.3rem;
+  color: #fff;
+}
+
+.footerWork .list-link:hover {
+  color: var(--primary);
+  border-bottom: 2px solid var(--primary);
+}

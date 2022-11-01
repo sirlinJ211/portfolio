@@ -1,0 +1,63 @@
+.skill {
+  height: auto;
+}
+
+.skill .languages {
+  width: 80%;
+  margin: auto;
+}
+
+.skill .languageLevel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.skill .languageLevel .language {
+  white-space: nowrap;
+  font-size: 2vw;
+  width: 30vw;
+}
+
+.skill .languageLevel .level {
+  border: 2px solid var(--lightgrey);
+  border-radius: 2px;
+  width: 55vw;
+  height: 3vh;
+}
+
+.skill .level .level-bar {
+  background-image: linear-gradient(
+    to right,
+    var(--primary),
+    var(--palette2SkyBlue)
+  );
+  width: 100%;
+  height: 2.5vh;
+}
+
+@media screen and (max-width: 550px) {
+  .skill .languageLevel {
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  .skill .languageLevel .language {
+    font-size: 3vw;
+  }
+
+  .skill .languageLevel .level {
+    border: 1px solid var(--lightgrey);
+    height: 2vh;
+  }
+  .skill .level .level-bar {
+    height: 1.5vh;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .skill .languageLevel .language {
+    font-size: 4vw;
+  }
+}

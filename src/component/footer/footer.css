@@ -1,0 +1,87 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--darkgrey);
+  border-top: 2px solid #000;
+  min-height: 3rem;
+}
+
+.footer .lists {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.footer .list {
+  padding: 0.5rem 3rem;
+}
+
+.footer .list-link {
+  color: #fff;
+  padding-bottom: 0.5rem;
+}
+
+.footer .list-link:hover {
+  color: var(--primary);
+  border-bottom: 2px solid var(--primary);
+}
+
+.footer .zip {
+  display: none;
+}
+
+@media screen and (max-width: 1260px) {
+  .footer .list {
+    padding: 0.5rem 2rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footer .list {
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .footer {
+    min-height: 7vh;
+    border: none;
+  }
+  .footer .zip {
+    display: block;
+    z-index: 3;
+    position: absolute;
+    bottom: 0.7rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .footer .lists {
+    position: fixed;
+    bottom: -100%;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--darkgrey);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: 0.4s;
+    z-index: 2;
+  }
+
+  .footer .lists.active {
+    bottom: 0;
+  }
+
+  .footer .markDot {
+    display: none;
+  }
+
+  .footer .list {
+    margin: 1rem;
+  }
+
+  .footer .list-link {
+    font-size: 1.8rem;
+  }
+}

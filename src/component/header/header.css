@@ -1,0 +1,48 @@
+header {
+  width: 100%;
+  height: auto;
+  background-color: var(--darkgrey);
+  position: static;
+}
+
+header .header {
+  max-width: 80rem;
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .logo img {
+  width: 45vw;
+  padding: 1.5rem;
+}
+
+@media screen and (max-width: 700px) {
+  header .logo img {
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  header .logo img {
+    width: 18rem;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  header .logo img {
+    width: 12rem;
+    padding: 0.5rem;
+  }
+}
